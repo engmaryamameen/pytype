@@ -162,7 +162,6 @@ cython_debug/
 #  *.iws
 
 # VS Code
-.vscode/
 
 # Temporary files
 *.tmp
@@ -184,3 +183,6 @@ Thumbs.db
 create_original_project.py
 script.sh
 test_example.py 
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
