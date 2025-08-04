@@ -1,0 +1,34 @@
+[tool.pytype]
+# Enable strict mode (treat missing types as errors)
+strict = false
+
+# Enable type inference
+infer = true
+
+# Auto-fix inferred types
+fix = false
+
+# Output format: "text" or "json"
+format = "text"
+
+# Patterns to exclude from checking
+exclude = [
+    "tests/",
+    "migrations/",
+    "venv/",
+    ".venv/",
+    "__pycache__/",
+    "*.pyc",
+]
+
+# Error codes to ignore
+ignore_errors = [
+    "E501",  # line too long
+    "F401",  # unused import
+]
+
+# Maximum line length
+max_line_length = 88
+
+# Target Python version
+python_version = "3.8" 
